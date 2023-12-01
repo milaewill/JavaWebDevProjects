@@ -18,7 +18,7 @@ public class Area {
 //        System.out.println("Enter a radius: ");
 //
 //        if(input.hasNextDouble()) {
-//            double radius = input.nextDouble();
+//             double radius = input.nextDouble();
 //
 //            if (radius > 0) {
 //                double area = Circle.getArea(radius);
