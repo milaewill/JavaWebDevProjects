@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class MenuItem {
 
-    private final Object LocalDate;
+
     private String name;
     private double price;
     private String description;
