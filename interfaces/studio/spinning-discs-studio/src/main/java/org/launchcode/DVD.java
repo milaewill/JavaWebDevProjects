@@ -16,9 +16,4 @@ public class DVD extends BaseDisc implements OpticalDisc {
         System.out.println("Sorry! Try Again!");
     }
 
-    // TODO: Implement your custom interface.
-
-
-    // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones
-    //  need to be declared separately.
 }
