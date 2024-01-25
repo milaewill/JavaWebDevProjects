@@ -5,6 +5,7 @@ import java.time.LocalDate;
 public class MenuItem {
 
 
+    private final LocalDate dateAdded;
     private String name;
     private double price;
     private String description;
@@ -13,12 +14,12 @@ public class MenuItem {
 
 
     public MenuItem(Object localDate, String name, double price, String description, String category) {
-        LocalDate = localDate;
+        localDate = localDate;
         this.name = name;
         this.price = price;
         this.description = description;
         this.category = category;
-        this.dateAdded = LocalDate.new();
+        this.dateAdded = LocalDate.now();
     }
 
     public String getName() {
