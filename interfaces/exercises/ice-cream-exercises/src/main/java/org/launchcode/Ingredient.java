@@ -13,6 +13,9 @@ public abstract class Ingredient {
         allergens = someAllergens;
     }
 
+    public Ingredient(String aName) {
+    }
+
     public String getName() {
         return name;
     }
